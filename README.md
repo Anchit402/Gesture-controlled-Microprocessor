@@ -1,0 +1,3 @@
+A gesture controlled microprocessor connected with pyautogui which takes 6 gestures as input and controls mouse and keyboard.
+
+work going on...
