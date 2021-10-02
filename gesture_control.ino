@@ -102,12 +102,12 @@ void loop() { //infinite loopy
         distL = dist;
         if (distL < 15) //Hand pushed in
         {
-          Serial.println ("Vup");
+          Serial.println ("Volume Up");
           delay (300);
         }
         if (distL > 20) //Hand pulled out
         {
-          Serial.println ("Vdown");
+          Serial.println ("Volume Down");
           delay (300);
         }
       }
