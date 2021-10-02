@@ -18,10 +18,10 @@ while 1:
     if 'Forward' in incoming:
         pyautogui.hotkey('ctrl', 'right') 
 
-    if 'Vup' in incoming:
+    if 'Volume Up' in incoming:
         pyautogui.hotkey('ctrl', 'down')
         
-    if 'Vdown' in incoming:
+    if 'Volume Down' in incoming:
         pyautogui.hotkey('ctrl', 'up')
 
     if 'next' in incoming:
